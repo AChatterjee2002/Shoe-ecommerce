@@ -767,6 +767,9 @@ i {
     background: #be2edd;
 }
 
+.slick-arrow {
+        display: none !important;
+    }
 
 /* Responsive */
 
