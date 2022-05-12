@@ -24,6 +24,30 @@ $('.slider2').slick({
     centerPadding: '0px',
     prevArrow: false,
     nextArrow: false,
+    responsive: [{
+            breakpoint: 1200,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                autoplay: true,
+            },
+        },
+        {
+            breakpoint: 1008,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                autoplay: true,
+            },
+        },
+        {
+            breakpoint: 800,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+            }
+        },
+    ],
 });
 
 const button = document.querySelector(".card .addtocart");
